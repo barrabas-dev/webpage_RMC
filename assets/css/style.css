@@ -5,6 +5,7 @@
     /* Colores corporativos */
     --color-primario-amarillo-claro: #fece00;
     --color-secundario-negro: #363636;
+    --color-secundario-negro-95opacity: #363636F2;
     --color-terciario-gris: #ceced6;
     
     /* Variables de tipografía y espaciado */
@@ -110,7 +111,7 @@ body {
     left: 0;
     width: 100%;
     height: calc(100vh - var(--nav-height)); /* Ocupa el resto de la altura de la pantalla */
-    background-color: var(--color-secundario-negro);
+    background-color: var(--color-secundario-negro-95opacity);
     flex-direction: column; /* Apila los elementos verticalmente */
     text-align: center;
     transform: translateX(100%); /* Oculta el menú fuera de la pantalla (a la derecha) */
