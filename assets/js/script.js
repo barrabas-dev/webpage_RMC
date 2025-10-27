@@ -11,4 +11,20 @@ document.addEventListener('DOMContentLoaded', () => {
         // La clase 'show' es la que aplica 'transform: translateX(0);' en CSS
         navMenu.classList.toggle('show');
     });
+
+    // HERO video: reproducir solo una vez y mostrar imagen al finalizar
+    const video = document.querySelector('.hero__video');
+    const imageFallback = document.querySelector('.hero__image-fallback');
+
+    if (video && imageFallback) {
+        video.addEventListener('loadedmetadata', () => {
+            video.playbackRate = 0.6;
+        });
+        imageFallback.style.display = 'none';
+        video.addEventListener('ended', () => {
+            video.pause();
+            video.style.display = 'none';
+            imageFallback.style.display = 'block';
+        });
+    }
 });

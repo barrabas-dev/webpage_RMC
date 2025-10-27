@@ -38,3 +38,37 @@ Mantén un estilo profesional y limpio, apto para un proyecto real.
 
 Integra las variables proporcionadas de forma coherente en los colores del header (fondo, texto, botones, etc.).
 
+======================================================
+PROMPT_HERO
+
+Vamos a desarrollar la sección HERO de una landing page profesional.
+
+Debemos trabajar siguiendo la metodología Mobile First.
+
+🔹 Objetivo: construir primero la vista móvil de la sección.
+
+Contenido:
+
+Un título principal (H1) con el texto:
+"Al servicio de dos países hermanos."
+
+Un párrafo descriptivo (p) con el texto:
+"Somos una empresa especializada en la comercialización de repuestos para automotores, ensamblaje de mangueras hidráulicas, racores y suministros de ferretería. Contamos con un equipo de profesionales altamente calificados y comprometidos en brindar soluciones eficientes y personalizadas para cada cliente."
+
+Un botón de llamado a la acción (CTA).
+
+Diseño y estructura:
+
+El fondo debe ser de color negro (#000 o var(--color-secundario-negro) si se usan variables CSS).
+
+Incluir un espacio reservado para una imagen, que servirá como fondo complementario (puede ser semitransparente o superpuesta al texto).
+
+Incluir también un espacio para un video, que se reproducirá automáticamente y, al finalizar, mostrará una imagen estática como fondo.
+
+Requisitos técnicos:
+
+Crea la estructura HTML comentada, clara y ordenada, siguiendo buenas prácticas semánticas (etiquetas correctas, comentarios explicativos y jerarquía de contenido).
+
+No incluir CSS aún, solo la estructura HTML base con los comentarios necesarios para entender cada parte.
+
+El código debe ser limpio, legible y pensado para integrarse en un proyecto profesional.

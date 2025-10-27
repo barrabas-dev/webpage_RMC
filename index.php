@@ -36,10 +36,22 @@
     <main>
         <!-- SECCIÓN HERO -->
         <section id="inicio" class="hero">
-            <div class="hero__content">
-                <h1 class="hero__title">Título llamativo y atractivo</h1>
-                <p class="hero__description">Texto de descripción que explica el valor principal de tu empresa y capta la atención del visitante.</p>
-                <button class="hero__cta">Call to Action</button>
+            <div class="hero__media-background">
+                <video class="hero__video" src="assets/img/rmc_reel_0.mp4" autoplay muted playsinline>
+                    Tu navegador no soporta el elemento de video.
+                </video>
+                <img class="hero__image-fallback" src="assets/img/hero-background.png" alt="Fondo complementario de la empresa">
+            </div>
+            <div class="hero__overlay"></div>
+            <div class="hero__content container">
+                <h1 class="hero__title">
+                    <span class="hero__title-white">Al servicio de</span><br>
+                    <span class="hero__title-yellow">Dos</span> <span class="hero__title-blue">países</span> <span class="hero__title-red">hermanos.</span>
+                </h1>
+                <p class="hero__description">
+                    Somos una empresa especializada en la comercialización de repuestos para automotores, ensamblaje de mangueras hidráulicas, racores y suministros de ferretería. Contamos con un equipo de profesionales altamente calificados y comprometidos en brindar soluciones eficientes y personalizadas para cada cliente.
+                </p>
+                <a href="#contacto" class="hero__cta-btn">Solicitar una Asesoría</a>
             </div>
         </section>
 
