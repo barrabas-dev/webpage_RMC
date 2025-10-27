@@ -1,0 +1,40 @@
+====================================================
+PROMPT_0
+
+voy a crear la base del html de la landing page.
+
+la pagina tendra un header, el cual tendra los siguientes items (productos, servicios, catalogos, nosotros, inicio)
+
+la pagina tendra una seccion HERO, la cual tendra un titulo llamativo, un texto de descripción y un boton de llamado a la accion.
+
+la pagina tendra una sección de PRODUCTOS, la cual tendra un grid con 16 elementos, estos elementos se mostraran de 8 en 8, en tarjetas que tendran una imagen y un titulo.
+
+la pagina tendra una seccion de SERVICIOS, la cual tendra un flexbox con 5 elementos, seran tarjetas con una imagen y un titulo.
+
+La pagina tendra una seccion de SEDES, en la cual se mostraran una tarjeta por sede que debe contener una imagen, una descripcion  y un mapa indexado de maps.
+
+la pagina tedra una secion footer 
+
+======================================================
+PROMPT_HEADER
+
+Vamos a comenzar desarrollando la sección del header para una página web profesional.
+
+Usaremos las siguientes variables CSS:
+
+--color-primario-amarillo-claro: #fece00;
+--color-secundario-negro: #363636;
+--color-terciario-gris: #ceced6;
+
+Ten en cuenta lo siguiente:
+
+Aplica la metodología Mobile First, es decir, diseña primero para pantallas pequeñas y luego agrega las mejoras con media queries.
+
+Usa buenas prácticas de CSS (uso de clases claras, estructura ordenada, consistencia visual).
+
+Comenta el código de forma detallada, explicando la función de cada bloque.
+
+Mantén un estilo profesional y limpio, apto para un proyecto real.
+
+Integra las variables proporcionadas de forma coherente en los colores del header (fondo, texto, botones, etc.).
+
