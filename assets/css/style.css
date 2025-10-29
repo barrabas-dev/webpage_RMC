@@ -325,6 +325,19 @@ body {
     z-index: 2;
 }
 
+.hero__fade-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.8s;
+    z-index: 20;
+}
+
 .hero__content {
     position: relative;
     z-index: 3;
@@ -350,7 +363,7 @@ body {
     color: #FFD600;
 }
 .hero__title-blue {
-    color: #0057B7;
+    color: #2196F3;
 }
 .hero__title-red {
     color: #D90429;
@@ -383,6 +396,11 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+/* Elementos extra para escritorio en HERO */
+.hero__video-1 {
+    display: none;
+}
+
 /* ========================================================================== 
    SECCIÓN HERO (DESKTOP - MEDIA QUERY)
    ========================================================================== */
@@ -398,5 +416,47 @@ body {
         padding: 0;
         text-align: justify;
     }
+
+    .hero__video-1,
+    .hero__image-fallback-1 {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: 1;
+    }
+
+    /* HERO: Grid para videos lado a lado */
+    .hero__media-background {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+    .hero__video,
+    .hero__video-1 {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        position: relative;
+        z-index: 1;
+    }
+    .hero__video {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .hero__video-1 {
+        grid-column: 2;
+        grid-row: 1;
+    }
+  
 }
 

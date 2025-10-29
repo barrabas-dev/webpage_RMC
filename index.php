@@ -37,10 +37,15 @@
         <!-- SECCIÓN HERO -->
         <section id="inicio" class="hero">
             <div class="hero__media-background">
+                <!-- Video e imagen para móvil (ya existentes) -->
                 <video class="hero__video" src="assets/img/rmc_reel_0.mp4" autoplay muted playsinline>
                     Tu navegador no soporta el elemento de video.
                 </video>
-                <img class="hero__image-fallback" src="assets/img/hero-background.png" alt="Fondo complementario de la empresa">
+                <!-- Video e imagen extra SOLO para escritorio -->
+                <video class="hero__video-1" src="assets/img/rmc_reel_1.mp4" autoplay muted playsinline>
+                    Tu navegador no soporta el elemento de video.
+                </video>
+                <img class="hero__image-fallback-1" src="assets/img/hero-background-desktop.jpg" alt="Fondo complementario escritorio">
             </div>
             <div class="hero__overlay"></div>
             <div class="hero__content container">

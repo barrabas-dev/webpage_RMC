@@ -72,3 +72,30 @@ Crea la estructura HTML comentada, clara y ordenada, siguiendo buenas prácticas
 No incluir CSS aún, solo la estructura HTML base con los comentarios necesarios para entender cada parte.
 
 El código debe ser limpio, legible y pensado para integrarse en un proyecto profesional.
+
+
+*** Vamos a desarrollar la vista de escritorio de la sección HERO.
+
+🔹 Objetivo: adaptar la sección existente (ya desarrollada en vista móvil) para escritorio, aplicando un diseño más visual y envolvente.
+
+Requerimientos:
+
+Agregar un video de fondo (hero__video_1) y una imagen de respaldo (fallback) (hero__image-fallback_1) que se mostrará en caso de que el video no pueda cargarse o reproducirse y despues de que la reproduccion de video finalice.
+
+Ambos elementos deben integrarse únicamente en la vista de escritorio, sin afectar el diseño móvil ya implementado.
+
+Consideraciones técnicas:
+
+Implementar una condición o regla CSS (por ejemplo, un media query) que oculte el video y la imagen de fondo en las vistas móviles (display: none o similar).
+
+Mantener la metodología Mobile First, añadiendo las nuevas reglas dentro de un bloque @media (min-width: Xpx) apropiado para escritorio (por ejemplo, min-width: 768px o 1024px, según el diseño).
+
+Mantener buenas prácticas de nomenclatura BEM y una estructura HTML limpia y comentada, ya que esto formará parte de un proyecto profesional.
+
+Entregable:
+
+Actualizar o generar la estructura HTML del HERO para escritorio.
+
+Incluir comentarios explicativos en el código.
+
+No agregar estilos CSS aún (solo estructura y clases correctamente organizadas).
